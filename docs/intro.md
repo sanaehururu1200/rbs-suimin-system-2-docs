@@ -1,47 +1,31 @@
 ---
 sidebar_position: 1
 ---
+# RBS SuiminSystem 2
+RBS SuiminSystem 2は、ModularAvatar対応の高機能な3点トラッキング用睡眠システムです。  
 
-# Tutorial Intro
+# このギミックは現在アルファ版です。
+# 1. 動作の保証はありません。
+# 2. 頻繁にアップデートが行われます。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 導入方法
+1. (初回のみ) [https://sanaehururu1200.github.io/vpm-2/](https://sanaehururu1200.github.io/vpm-2/) からVCCにリポジトリを追加する
+2. VCCからアバターのプロジェクトに「RBS Suimin System 2」を追加する  
+(アルファ版のため、プレリリース版のパッケージを表示する設定が有効になっていないと追加できません)
+3. Unityのヒエラルキー上でアバターの上で右クリック -> 「RBS-SuiminSystem/日本語版のセットアップ(Japanese)」をクリックする
+4. アバターをアップロードする
 
-## Getting Started
+## 基本的な使い方
+1. ラジアルメニューの「RBS-Suimin/睡眠」をONにします
+2. 寝たい場所で「RBS-Suimin/足固定」をONにします  
 
-Get started by **creating a new site**.
+## 便利な機能
+### 寝返り対応
+仰向けや横向き、うつ伏せ をメニュー操作なしに切り替えられます。  
+横や下を向くために、ラジアルメニューを操作する必要はありません。  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### OVR高さ同期
+睡眠モーション中にフルトラ状態でのスペースドラッグに近い挙動を得られます。  
+OVR Advanced SettingsやPlaySpaceMoverのような、高さを調整するアプリケーションのスペース移動にアバターの高さを同期します。  
+この機能を利用することで、コライダーの無いベッドでも寝ることが出来るようになります。  
+(アバターの身長の6割程度の高さまで上がることが出来ます)
